@@ -51,8 +51,8 @@ const projects = [
       "Structured content for better readability and recruiter accessibility.",
       "Focused on responsive design and clean visual hierarchy.",
     ],
-    live: "",
-    github: "",
+    live: "https://my-portfolio-six-bay-47.vercel.app/",
+    github: "https://github.com/Akhilesh-2007/my-portfolio",
     color: "from-primary to-accent",
   },
 ];
