@@ -4,9 +4,9 @@ import { ExternalLink, Award, Trophy } from "lucide-react";
 
 const certifications = [
   {
-    title: "OCI Data Science Professional",
-    issuer: "Oracle",
-    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7578C645D3B3CCC15D562B7F8F9CC047CB4F11E7ADF8646DCCE59A58EBADEC95",
+    title: "Google Cloud Computing Foundations Certificate",
+    issuer: "Google Skills",
+    link: "https://drive.google.com/file/d/1zBqASorjQABmyBdobDbBswNbjoQt4gWW/view",
   },
   {
     title: "Getting Started with Artificial Intelligence",
@@ -17,6 +17,11 @@ const certifications = [
     title: "OCI AI Foundations",
     issuer: "Oracle",
     link: "https://catalog-education.oracle.com/pls/certview/sharebadge?id=D795A3DFCE939FC1E503F459806AC4967381CA1697934A1BCBC0AC832715D61C",
+  },
+  {
+    title: "OCI Data Science Professional",
+    issuer: "Oracle",
+    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7578C645D3B3CCC15D562B7F8F9CC047CB4F11E7ADF8646DCCE59A58EBADEC95",
   },
   {
     title: "NLP and Text Mining",

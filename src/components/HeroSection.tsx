@@ -1,9 +1,9 @@
-import { motion } from "framer-motion";
+import { motion, type Variants } from "framer-motion";
 import { ArrowDown, Download, Github, Linkedin, Mail } from "lucide-react";
 
 const headingText = "Hi, I'm Akhilesh Kolisetty";
 
-const headingContainer = {
+const headingContainer: Variants = {
   hidden: {},
   visible: {
     transition: {
@@ -13,7 +13,7 @@ const headingContainer = {
   },
 };
 
-const headingCharacter = {
+const headingCharacter: Variants = {
   hidden: { opacity: 0, y: 24, filter: "blur(5px)" },
   visible: {
     opacity: 1,
@@ -21,14 +21,14 @@ const headingCharacter = {
     filter: "blur(0px)",
     transition: {
       duration: 0.4,
-      ease: [0.16, 1, 0.3, 1],
+      ease: [0.16, 1, 0.3, 1] as const,
     },
   },
 };
 
 const HeroSection = () => {
   const profilePhotoUrl = "/akhilesh-profile.jpeg";
-  const resumeUrl = "https://drive.google.com/file/d/1rSTS4ID9_Gjo3LA4pZNPHIc0UElekaj8/view";
+  const resumeUrl = "https://drive.google.com/file/d/1PHvHwUdoOU6Co_vguPNXQZd8uT1NIVqL/view";
 
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-background pt-24 text-foreground transition-colors duration-500">
