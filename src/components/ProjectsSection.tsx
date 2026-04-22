@@ -12,7 +12,7 @@ const projects = [
       "Implemented course management, enrollment workflow, and analytics modules.",
       "Designed responsive and intuitive UI flows for better learning experience.",
     ],
-    live: "",
+    live: "https://lms-frontend-indol-alpha.vercel.app/",
     github: "https://github.com/Akhilesh-2007/lms",
     color: "from-primary to-accent",
   },
