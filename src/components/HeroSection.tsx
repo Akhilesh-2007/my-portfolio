@@ -84,9 +84,9 @@ const HeroSection = () => {
               initial={{ opacity: 0, y: 24 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.2 }}
-              className="mx-auto mb-4 max-w-2xl text-lg text-muted-foreground md:text-xl lg:mx-0"
+              className="mx-auto mb-4 max-w-2xl text-lg font-medium text-primary md:text-xl lg:mx-0"
             >
-              Frontend Developer | AIML Enthusiast | Full Stack Learner
+              Machine Learning Engineer | Frontend Developer | Full-Stack Builder
             </motion.p>
 
             <motion.p
@@ -95,8 +95,8 @@ const HeroSection = () => {
               transition={{ duration: 0.7, delay: 0.3 }}
               className="mx-auto mb-10 max-w-xl text-base text-muted-foreground/85 lg:mx-0"
             >
-              I build modern and scalable web applications with a strong focus on responsive UI and user experience.
-              Currently exploring Next.js, FastAPI, and AI/ML to create intelligent products.
+              I build modern, intelligent, and scalable web applications with a strong focus on responsive UI,
+              full-stack project development, and AI/ML solutions.
             </motion.p>
 
             <motion.div

@@ -21,36 +21,44 @@ const AboutSection = () => {
           <div className="mx-auto h-1 w-20 rounded-full bg-gradient-primary" />
         </motion.div>
 
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7, delay: 0.15 }}
-          className="mx-auto mb-12 max-w-3xl text-center text-muted-foreground"
+          className="mx-auto mb-12 max-w-4xl space-y-4 text-center text-muted-foreground"
         >
-          I am a 3rd-year undergraduate student with a strong interest in web development, UI design, and AI/ML.
-          I have experience building responsive applications with React.js and modern frontend tools, and I enjoy
-          creating scalable full-stack systems. Currently, I am strengthening my skills in Next.js, FastAPI, and
-          machine learning concepts to build intelligent and user-friendly products.
-        </motion.p>
+          <p className="text-base leading-relaxed md:text-lg">
+            I am a fourth-year Computer Science undergraduate with strong expertise in Data Structures and Algorithms,
+            Machine Learning, and software development. I have experience building responsive web applications using
+            React.js and developing AI-driven and full-stack solutions using modern technologies.
+          </p>
+          <p className="text-base leading-relaxed md:text-lg">
+            I am passionate about solving complex problems and building scalable, intelligent, and user-focused products,
+            while continuously exploring emerging technologies in AI and software engineering.
+          </p>
+          <p className="inline-block rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-sm font-semibold text-primary">
+            🏆 Flipkart GRiD 8.0 National Runner-Up (Data Science Track) out of 1.7L+ registrations across India
+          </p>
+        </motion.div>
 
         <div className="mx-auto grid max-w-5xl gap-8 md:grid-cols-3">
           {[
             {
               icon: GraduationCap,
               title: "Education",
-              desc: "B.E. in CSE at Dayananda Sagar College of Engineering, Bengaluru (2023-Present), CGPA: 9.28",
+              desc: "B.E. in CSE at Dayananda Sagar College of Engineering, Bengaluru (4th Year Undergraduate), CGPA: 9.28",
               delay: 0.1,
             },
             {
               icon: Code2,
               title: "What I Do",
-              desc: "I build responsive and interactive web apps, and explore AI/ML solutions using modern frontend and backend technologies.",
+              desc: "I build responsive web apps, engineer AI/ML solutions, and develop scalable full-stack applications with modern frameworks.",
               delay: 0.2,
             },
             {
               icon: MapPin,
               title: "Location",
-              desc: "Based in Bengaluru, Karnataka, India. Open to Frontend, Full Stack, and AI/ML internship opportunities.",
+              desc: "Based in Bengaluru, Karnataka, India. Open to Machine Learning, Full Stack, and Frontend engineering opportunities.",
               delay: 0.3,
             },
           ].map(({ icon: Icon, title, desc, delay }) => (

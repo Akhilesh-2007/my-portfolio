@@ -32,14 +32,18 @@ const certifications = [
 
 const achievements = [
   {
-    text: "1st Place - CodeSphere (DSA Global Codeathon)",
+    text: "National Runner-Up (Data Science Track) — Flipkart GRiD 8.0 (Out of 1,70,000+ registrations across India)",
+    link: "https://drive.google.com/file/d/1xeCb0H8hQiO_hg2FDcc3200xyveUdzZH/view",
+  },
+  {
+    text: "1st Place — CodeSphere (DSA Global Codeathon)",
     link: "https://drive.google.com/file/d/1fIR2VA3bJAD7OEfuhzxUnqZ5lKimDRBq/view",
   },
   {
     text: "Participated in Commit and Conquer Hackathon (DSCE)",
     link: "https://drive.google.com/file/d/1BoIeTcmGd9XAtTrTq_Gh_yUqhNsCOH3P/view",
   },
-  { text: "Active participation in hackathons and coding events" },
+  { text: "Active participation in competitive hackathons and coding competitions" },
 ];
 
 const CertificationsSection = () => {
