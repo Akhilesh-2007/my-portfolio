@@ -28,6 +28,11 @@ const certifications = [
     issuer: "Simplilearn",
     link: "https://simpli-web.app.link/e/9SHxTa1uTWb",
   },
+  {
+    title: "Networking Basics Course",
+    issuer: "Cisco Networking Academy",
+    link: "https://drive.google.com/file/d/1Z4xIkS2u1E2ToEShh4gAmXZdFZfWedFc/view",
+  },
 ];
 
 const achievements = [

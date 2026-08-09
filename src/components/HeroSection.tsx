@@ -27,8 +27,8 @@ const headingCharacter: Variants = {
 };
 
 const HeroSection = () => {
-  const profilePhotoUrl = "/akhilesh-profile.jpeg";
-  const resumeUrl = "https://drive.google.com/file/d/1PHvHwUdoOU6Co_vguPNXQZd8uT1NIVqL/view";
+  const profilePhotoUrl = "/akhilesh-profile.png";
+  const resumeUrl = "https://drive.google.com/file/d/14seZFHTVMrdO7Z7z87nsSnbQrBiEtL1y/view";
 
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden bg-background pt-24 text-foreground transition-colors duration-500">
